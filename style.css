@@ -246,6 +246,7 @@ main h3 {
   width: 16px;
   height: 16px;
   padding: 16px;
+  line-height: 16px;
   border-radius: 50%;
   outline: none;
   border: 1px solid teal;
