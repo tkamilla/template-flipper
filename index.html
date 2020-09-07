@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Flipper</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a id="logo" href="#">Flipper</a></h1>
+      <ul class="nav">
+        <li class="nav-link"><a class="on" href="index.html">Home</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    
+    <main>
+      <h3 class="sect-title">Image Gallery</h3>
+      <p class="sect-description">
+        Image credit goes to <a href="https://unsplash.com/">Unsplash</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolore omnis facere, repellat quas amet. Omnis reprehenderit consectetur optio illum.
+      </p>
+      <div id="gallery"></div>
+      <div class="pagination">
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+      </div>
+
+      <div class="contact">
+        <h3 id="contact" class="sect-title">Contact</h3>
+        <p class="sect-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolor molestiae, earum dolor.</p>
+      </div>
+      <div class="contact-wrap">
+        <div class="gmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8183.395160338735!2d-71.1024403734061!3d42.33156001160961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2stw!4v1595668216452!5m2!1sen!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="right">
+          <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button class="send">send message</button>
+          </form>
+          <div class="phone"><i class="fas fa-phone"></i><span>999-777-5555</span> </div>
+          <div class="location"><i class="fas fa-map-marker-alt"></i><span>999 aliquam eaque itaque, repellendus vero 48830</span> </div>
+          <div class="email"><i class="fas fa-envelope"></i><span>info@flipper.com</span> </div>
+          
+          
+          
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        Copyright &copy; <span id="copy-date">2020</span> Tkamilla
+      </div>
+      <div class="social"></div>
+    </footer>
+  </div>
+
+  <div class="modal-wrapper hidden">
+    <div class="modal">
+      <div class="delete">
+        <button class="delete-btn">X</button>
+      </div>
+      <div class="img-container">
+      </div>
+      <div class="num-items">1 of 24</div>
+      <div class="page-wrap">
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
